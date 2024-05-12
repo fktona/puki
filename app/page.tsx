@@ -18,7 +18,7 @@ export default function Home() {
     <MusicProvider>
     <ScrollProvider>
     <MenuProvider>
-    <main className="">
+    <main className=" relative max-w-[1440px] mx-auto">
       { !show ?
       <FrontPage show={show}
       setShow={setShow} />
