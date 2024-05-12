@@ -16,7 +16,8 @@ export default function Process() {
                 <h3 className='lg:text-[48px] text-[30px]'>Create DA Solana wallet</h3>
                 <p className='lg:text-[36px] text-[25px]  text-start'>Create a Phantom or Solflare Wallet using either a desktop computer or an 
                     iOS/Android mobile device.
-                     That will allow you to buy, sell, send, and receive <span className='text-[#F5A435]'>$Puki.</span></p>
+                     That will allow you to buy, sell, send, and receive 
+                     <span className='text-[#F5A435]'>$Puki</span></p>
             </div>
             <Image src='/process1.svg' width={490} height={312} alt='eye' className='rounded-[11px]' />         
         </div>
@@ -39,7 +40,8 @@ export default function Process() {
                 <h3 className='lg:text-[48px] text-[30px]'> Connect YA & Swap PA</h3>
                 <p className='lg:text-[36px] text-[25px]  text-start'>Go to Jupiter and connect yA wallet AND click
                  ‘Connect wallet’ selecting DA Phantom. Press ‘Select a token’ and enter da token to da contract
-                 address to find da <span className='text-[#F5A435]'>$puki</span>  and start your swap from SOL to <span className='text-[#F5A435]'>$puki</span> $PUKI.</p>
+                 address to find da <span className='text-[#F5A435]'>$puki</span>
+                  and start your swap from SOL to <span className='text-[#F5A435]'>$puki</span>. </p>
             </div>
             <div className='bg-[#F5A435] rounded-[11px]'>
             <Image src='/process3.svg' width={490} height={312} alt='eye' /> 

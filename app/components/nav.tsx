@@ -46,28 +46,28 @@ export default function Nav() {
              animate="visible"
              transition={{ type:'spring', duration: 0.2, delay:1.2 }}
               className='navHover px-4 py-2 rounded-[89px] transition-all li duration-300'
-               onClick={() => scrollToSection(aboutRef) }>Home</motion.li>
+               onClick={() => scrollToSection(homeRef) }>Home</motion.li>
             <motion.li
              variants={bounce}
              initial="hidden"
              animate="visible"
              transition={{ duration: 0.2, delay: 1.3 , damping:60 }}
               className='navHover px-4 py-2 rounded-[89px] transition-all li duration-300'
-               onClick={() => scrollToSection(homeRef)}>About</motion.li>
+               onClick={() => scrollToSection(aboutRef)}>About</motion.li>
             <motion.li
              variants={bounce}
              initial="hidden"
              animate="visible"
              transition={{ duration: 0.2, delay: 1.4 }}
               className='navHover px-4 py-2 rounded-[89px] transition-all li duration-300' 
-              onClick={() => scrollToSection(coinRef)}>Buy $COIN</motion.li>
+              >Buy $PUKI</motion.li>
             <motion.li 
              variants={bounce}
              initial="hidden"
              animate="visible"
              transition={{ duration: 0.2, delay: 1.5 }}
              className='navHover px-4 py-2 rounded-[89px] transition-all li duration-300'
-              onClick={() => scrollToSection(dexRef)}>Dexscreener</motion.li>
+            >Dexscreener</motion.li>
         </ul>
 
         <motion.div

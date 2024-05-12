@@ -34,7 +34,7 @@ export default function MobileNav({}: {}) {
         <Image alt='puki' src='/cteddy.svg' width={98} height={62}  className="absolute  "/>
         <ul className="flex flex-col gap-8 justify-center items-start w-fit mx-auto    ">
           <li
-            onClick={() => handleCloseMenu(aboutRef)}
+            onClick={() => handleCloseMenu(homeRef)}
             className={`text-white text-3xl font-bold cursor-pointer
              text-start  bottom-0 overflow-hidden relative mb-2 
               ${aniLeft ? "left-[]" : "left-0"}
@@ -43,7 +43,7 @@ export default function MobileNav({}: {}) {
            <span className=" menuli">Home</span>
           </li>
           <li
-            onClick={() => handleCloseMenu(homeRef)}
+            onClick={() => handleCloseMenu(aboutRef)}
             className={`text-white text-3xl font-bold overflow-hidden cursor-pointer ${
               aniLeft ? "left-[]" : "left-0"
             }`}
@@ -51,15 +51,13 @@ export default function MobileNav({}: {}) {
             <span className="menuli">About</span>
           </li>
           <li
-            onClick={() => handleCloseMenu(coinRef,)}
             className={`text-white text-3xl font-bold overflow-hidden cursor-pointer ${
               aniLeft ? "left-[]" : "left-0"
             }`}
           >
-            <span className="menuli">Buy $COIN</span>
+            <span className="menuli">Buy $PUKI</span>
           </li>
           <li
-            onClick={() => handleCloseMenu(dexRef)}
             className={`text-white text-3xl font-bold overflow-hidden cursor-pointer ${
               aniLeft ? "left-[]" : "left-0"
             }`}

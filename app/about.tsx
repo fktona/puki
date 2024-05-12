@@ -7,7 +7,7 @@ export default function About() {
   return (
     <main ref={aboutRef} 
     className=' relative  flex justify-between flex-col lg:flex-row 
-    items-center px-[25px] py-[50px]  gap-10  lg:px-[107px]
+    items-center px-[25px] py-[50px]  md:gap-10 gap-6  lg:px-[107px]
      lg:py-[91px] md:py-[65px] md:px-[50px]  bg-[#341A1D]/80'>
       
      
