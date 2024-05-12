@@ -19,7 +19,7 @@ export default function Hero() {
         <div className=' font-bold text-white'><p className='md:text-[50px] text-[30px] 
         leading-[87%]'>Welcome To </p>
         <p className='lg:text-[190px] md:text-[140px] text-[110px] leading-[87%] text-[#FFB500]'>pukionsol</p></div>
-        <p className='text-white text-lg lg:mt-[50px] mt-8 text-[29px] md:text-[50px]  '>The baddest bear on the block (chain)</p>
+        <p className='text-white text-lg lg:mt-[50px] mt-8 text-[31px] md:text-[50px]  '>The baddest bear on the block (chain)</p>
         <button className='herobtn lg:px-[50px] bg-[#4E3133] px-[24px] mt-[45px] text-[35px] md:text-[64px] md:py-[6.7px]'>
         Grab  $PUKI
         </button>

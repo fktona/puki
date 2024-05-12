@@ -28,7 +28,7 @@ export default function Nav() {
   
   return (
     <nav className='relative w-full  flex justify-between z-[50]
-     items-center  lg:px-[109px]   px-5 mt-[26px]'>
+     items-center  lg:px-[109px]   px-5 md:mt-[26px]'>
       <motion.div
       variants={fadeIn}
       initial="hidden"
