@@ -16,7 +16,7 @@ export default function Process() {
                 <h3 className='lg:text-[48px] text-[30px]'>Create DA Solana wallet</h3>
                 <p className='lg:text-[36px] text-[25px]  text-start'>Create a Phantom or Solflare Wallet using either a desktop computer or an 
                     iOS/Android mobile device.
-                     That will allow you to buy, sell, send, and receive $Crkts.</p>
+                     That will allow you to buy, sell, send, and receive $Puki.</p>
             </div>
             <Image src='/process1.svg' width={490} height={312} alt='eye' className='rounded-[11px]' />         
         </div>

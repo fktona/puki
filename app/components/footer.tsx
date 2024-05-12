@@ -15,7 +15,7 @@ export default function Footer() {
             </div>
             <p className='lg:text-[37px] md:text-[28px] text-[24px]'>PUKI ON SOLANA</p>
             </div>
-            <div className="flex flex-col justify-center gap-3 max-w-[400px]">
+            <div className="flex flex-col justify-center gap-3 lg:max-w-[30%]">
                 <p className='lg:text-[37px] md:text-[28px] text-center lg:text-start text-[24px]'>Disclaimer</p>
                 <p className='lg:text-[20px] md:text-[18px] text-[16px] '>Yo, $PUKI ain't no suit and tie kinda coin. This is pure entertainment, 
                     a meme for the streets. Don't expect lambos or mansions, 
