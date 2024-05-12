@@ -21,8 +21,7 @@
 body {
   color: white;
   position: relative;
-  background: url('/hero.png'), #341A1D 0px 0px / 100% 160.203% no-repeat;
- background-blend-mode: multiply;
+  background: url('/hero.jpg')  100% / cover no-repeat;
 min-height: 100vh;
 width: 100%;
 top: 0;
