@@ -2,18 +2,18 @@ import Image from "next/image"
 
 export default function Footer() {
   return (
-    <footer className='bg-[#341A1D] md:px-[120px] px-[25px] flex flex-col-reverse 
-    lg:flex-row justify-between lg:gap-[100px] gap-8  py-[50px]  items-center lg:items-end'>
+    <footer className='bg-[#341A1D] md:px-[100px] px-[25px] flex flex-col-reverse 
+    lg:flex-row justify-between lg:gap-[80px] gap-8  py-[50px]  items-center lg:items-end'>
     
             <p className='lg:text-[37px] md:text-[28px] text-[24px]'>
-            $PUKI 2024 ALL RIGHT RESERVED.
+            $PUKI 2024 ALL RIGHTS RESERVED.
             </p>
-            <div className="flex flex-col justify-center ">
-                <div className="flex relative justify-center">
+            <div className="flex flex-col  items-center justify-start">
+                <div className="flex relative justify-center ">
             <Image src='/sol.png' width={38} height={38} alt='sol' className="relative rounded-full" />
-            <Image src='/footer.png' width={40} height={40} alt='sol' className="relative z-10 -left-4"  />
+            <Image src='/footer.png' width={40} height={40} alt='puki' className="relative z-10 -left-4"  />
             </div>
-            <p className='lg:text-[37px] md:text-[28px] text-[24px]'>PUKI ON SOLANS</p>
+            <p className='lg:text-[37px] md:text-[28px] text-[24px]'>PUKI ON SOLANA</p>
             </div>
             <div className="flex flex-col justify-center gap-3 max-w-[400px]">
                 <p className='lg:text-[37px] md:text-[28px] text-center lg:text-start text-[24px]'>Disclaimer</p>

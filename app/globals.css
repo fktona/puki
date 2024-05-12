@@ -64,8 +64,8 @@ box-shadow: 0px 23.983px 0px 0px #000;
 }
 
 .grab{
-  background: url('/grab.png') #341A1D 50% / cover no-repeat;
-mix-blend-mode: luminosity;
+  background: url('/grab.png')  50% / cover no-repeat;
+  background-blend-mode: luminosity;
 }
 
 .li:hover::after ,.li::before{
@@ -186,7 +186,7 @@ mix-blend-mode: luminosity;
 
  .heroflow{
   position: relative;
-  animation: heroFlow 700ms linear 1.5  forwards ;
+  animation: heroFlow 700ms linear 1.5  ;
 }
 
 @keyframes heroFlow{

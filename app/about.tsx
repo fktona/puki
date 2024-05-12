@@ -6,7 +6,8 @@ export default function About() {
   const {aboutRef} = useScroll() as any;
   return (
     <main ref={aboutRef} 
-    className=' relative  flex justify-between flex-col lg:flex-row items-center px-[25px] py-[50px]  gap-10  lg:px-[107px]
+    className=' relative  flex justify-between flex-col lg:flex-row 
+    items-center px-[25px] py-[50px]  gap-10  lg:px-[107px]
      lg:py-[91px] md:py-[65px] md:px-[50px]  bg-[#341A1D]/80'>
       
      

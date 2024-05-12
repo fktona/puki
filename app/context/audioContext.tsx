@@ -16,6 +16,8 @@ const MusicProvider = ({ children }: { children: ReactNode }) => {
   const [playAudio, setPlayAudio] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
   const handleplayAudio = () => {
+    if (audioRef.current === null) return;
+    audioRef.current.volume = 0.3;
     if (playAudio) {
       audioRef.current?.pause();
       setPlayAudio(false);
