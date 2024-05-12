@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Footer() {
   return (
     <footer className='bg-[#341A1D] md:px-[120px] px-[25px] flex flex-col-reverse 
-    lg:flex-row justify-between lg:gap-[100px] gap-8  md:py-[50px] items-center lg:items-end'>
+    lg:flex-row justify-between lg:gap-[100px] gap-8  py-[50px]  items-center lg:items-end'>
     
             <p className='lg:text-[37px] md:text-[28px] text-[24px]'>
             $PUKI 2024 ALL RIGHT RESERVED.
