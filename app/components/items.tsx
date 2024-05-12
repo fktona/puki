@@ -10,13 +10,15 @@ export default function Items() {
         <div className='lg:px-[100px]  grid gap-8 lg:grid-cols-4 px-[25px] md:grid-cols-2 grid-cols-1'>
             {
                 Array.from('1234').map((o , i) => (
-                    <div key={i} className=' flex flex-col items-start gap-3 rounded-[35px] z-30 bg-[#4A3233]'>
-                        <Image src={'/item1.png'} alt='item' width={100} height={100} className=' px-[20px] py-[20px] w-full aspect-square'/>
-                        <p className='lg:text-[30px] text-[25px]  text-center px-4'>{i == 0 && <><span className='text-[#FFB500]'>100% </span> LIQUIDITY NUKED! WE BREATHE FIRE NOW!</>}</p>
-                        <p className='lg:text-[30px] text-[25px] text-center px-4 '>{i == 1 && <><span className='text-[#FFB500]'>1,000,000,000 $PUKI </span>TOKENS MINTED, YO! $PUKI'S
+                    <div key={i} className=' flex flex-col p-4 items-start gap-3 rounded-[35px] 
+                    z-30 bg-[#4A3233]'>
+                        <Image src={'/item1.svg'} alt='item' width={100} height={100} className=' 
+                         w-full aspect-square'/>
+                        <p className='lg:text-[30px] text-[25px]  text-center '>{i == 0 && <><span className='text-[#FFB500]'>100% </span> LIQUIDITY NUKED! WE BREATHE FIRE NOW!</>}</p>
+                        <p className='lg:text-[30px] text-[25px] text-center  '>{i == 1 && <><span className='text-[#FFB500]'>1,000,000,000 $PUKI </span>TOKENS MINTED, YO! $PUKI'S
                          THE PLUG!</>}</p>
-                         <p className='lg:text-[30px] text-[25px] text-center px-4'>{i == 2 && <><span className='text-[#FFB500]'>REVOKED + MINT ANDFREEZE DISABLED!</span></>}</p>
-                        <p className='lg:text-[30px] text-[25px] text-center px-4'>{i == 3 && <><span className='text-[#FFB500]'>$PUKI</span>  ain't payin' no taxes! Buy, sell, trade with Zero fe</>}</p>
+                         <p className='lg:text-[30px] text-[25px] text-center '>{i == 2 && <><span className='text-[#FFB500]'>REVOKED + MINT ANDFREEZE DISABLED!</span></>}</p>
+                        <p className='lg:text-[30px] text-[25px] text-center'>{i == 3 && <><span className='text-[#FFB500]'>$PUKI</span>  ain't payin' no taxes! Buy, sell, trade with Zero fe</>}</p>
                     </div>
                 ))
             }

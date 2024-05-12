@@ -21,8 +21,9 @@ export default function About() {
         They'll all know the name: <span className='text-[#FFB500]'>$PUKI</span>
         </p>
         </div>
-        <Image src='/teddyabout.png' alt='about' width={450} height={520} className='lg:min-w-[450px] lg:h-[520px] w-[70%] aspect-square ' />
+        <Image src='/cteddy.svg' alt='about' width={450} height={520} className='lg:min-w-[450px] lg:h-[520px] w-[70%] aspect-square ' />
         
     </main>
   )
 }
+

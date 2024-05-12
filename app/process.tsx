@@ -18,7 +18,7 @@ export default function Process() {
                     iOS/Android mobile device.
                      That will allow you to buy, sell, send, and receive $Crkts.</p>
             </div>
-            <Image src='/process.png' width={490} height={312} alt='eye' />         
+            <Image src='/process1.svg' width={490} height={312} alt='eye' className='rounded-[11px]' />         
         </div>
 
         
@@ -28,7 +28,7 @@ export default function Process() {
                 <h3 className='lg:text-[48px] text-[30px]'> Send SOL to your wallet</h3>
                 <p className='lg:text-[36px] text-[25px]  text-start'>You can buy SOL or transfer it from exchanges like Coinbase, Binance, etc.</p>
             </div>
-            <Image src='/process2.png' width={490} height={312} alt='eye' />         
+            <Image src='/process2.svg' width={490} height={312} alt='eye' className='rounded-[11px]' />         
         </div>
 
 
@@ -40,7 +40,9 @@ export default function Process() {
                  wallet’ selecting DA Phantom. Press ‘Select a token’ and enter da token to da contract address to find da
                  $puki and start your swap from SOL to $PUKI.</p>
             </div>
-            <Image src='/process3.png' width={490} height={312} alt='eye' />         
+            <div className='bg-[#F5A435] rounded-[11px]'>
+            <Image src='/process3.svg' width={490} height={312} alt='eye' /> 
+            </div>        
         </div>
 
 

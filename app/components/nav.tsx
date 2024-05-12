@@ -35,7 +35,7 @@ export default function Nav() {
       animate="visible"
       transition={{ duration: 0.2, delay:1 }}>
         
-        <Image alt='puki' src='/logo.png' width={72} height={72} />
+        <Image alt='puki' src='/cteddy.svg' width={72} height={72} />
         </motion.div>
         <ul className=' text-[33px]  font-normal cursor-pointer text-white 
         md:flex hidden lg:gap-[40px] 
