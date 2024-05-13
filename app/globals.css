@@ -23,7 +23,8 @@ body {
   position: relative;
 min-height: 100vh;
 width: 100%;
-background: url('/hero.jpg');
+background: url('/fullbg.png');
+  background-size: contain;
 top: 0;
 background-attachment: fixed;
 }
@@ -232,7 +233,42 @@ overflow: hidden;
   background: url('/item1.svg')  50% / cover no-repeat;
 }
 
-.bgg{
-  background: url('/hero.jpg');
-  mix-blend-mode: multiply;
+/* .bgg{
+  
 }
+
+.bgg2{
+  background: url('/bg2.png'),#341A1D;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.bgg3{
+  background: url('/bg3.png'),#341A1D;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.bgg4{
+  background: url('/bg4.png'),#341A1D;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.bgg5{
+  background: url('/bg5.png'),#341A1D;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.bgg6{
+  background: url('/bg6.png'),#341A1D;
+  background-size: 100% 100%;
+  background-blend-mode: multiply;
+}
+
+.bgg7{
+  background: url('/bg7.png'),#341A1D;
+  background-size: cover;
+  background-blend-mode: multiply;
+} */
