@@ -42,7 +42,7 @@ export default function Process() {
                 <p className='lg:text-[36px] text-[25px]  text-start'>Go to Jupiter and connect yA wallet AND click
                  ‘Connect wallet’ selecting DA Phantom. Press ‘Select a token’ and enter da token to da contract
                  address to find da <span className='text-[#F5A435]'>$PUKI</span>
-                  and start your swap from SOL to <span className='text-[#F5A435]'>$PUKI </span>. </p>
+                  and start your swap from SOL to <span className='text-[#F5A435]'>$PUKI </span></p>
             </div>
             <div className='bg-[#F5A435] rounded-[11px]'>
             <Image src='/process3.svg' width={490} height={312} alt='eye' /> 
