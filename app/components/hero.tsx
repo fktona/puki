@@ -8,7 +8,7 @@ import { useScroll } from '../context/scroll'
 export default function Hero() {
   const {homeRef} = useScroll() as any;
   return (
-    <section className='bgg'>
+    <section className='bgg1'>
     <div ref={homeRef}
      className='relative max-w-[1440px] mx-auto    w-[100%] min-h-[100vh] md:min-h-fit overflow-hidden z-20 '>
       <div className=' absolute right-[-35%] md:right-[-60px] opacity-100
