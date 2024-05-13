@@ -217,12 +217,17 @@ box-shadow: 0px 23.983px 0px 0px #000;
 } */
 
 .img:hover{
-  transform: scale(1.2);
+  transform: scale(1.5);
 
 }
 .img{
+overflow: hidden;
   transition: all 0.5s;
 }
 .item{
   perspective: 1000px;
+}
+
+.item1{
+  background: url('/item1.svg')  50% / cover no-repeat;
 }

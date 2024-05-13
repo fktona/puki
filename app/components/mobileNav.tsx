@@ -31,7 +31,7 @@ export default function MobileNav({}: {}) {
     { openMenu &&
     <nav
       className={`lg:hidden top-0 menu fixed bottom-0 w-[80%] z-[100]  h-full`}>
-        <Image alt='puki' src='/cteddy.svg' width={98} height={62}  className="absolute  "/>
+        <Image alt='puki' src='/cteddy.svg' width={98} height={62}  className="absolute top-3  "/>
         <ul className="flex flex-col gap-8 justify-center items-start w-fit mx-auto    ">
           <li
             onClick={() => handleCloseMenu(homeRef)}

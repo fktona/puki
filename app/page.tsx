@@ -11,6 +11,7 @@ import Grab from "./grab";
 import Footer from "./components/footer";
 import MobileNav from "./components/mobileNav";
 import MusicProvider from "./context/audioContext";
+import Social from "./components/socials";
 import { useState } from "react";
 export default function Home() {
   const [show, setShow] = useState(false);
@@ -26,6 +27,7 @@ export default function Home() {
        : <div>
       <MobileNav />
       <Hero />
+      <Social/>
       <About />
       <Items />
       <Process/>
