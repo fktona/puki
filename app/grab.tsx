@@ -5,7 +5,7 @@ import { useScroll } from './context/scroll'
 export default function Grab() {
   const {dexRef} = useScroll() as any;
   return (
-    <main className='bg-[#341A1D]'>
+    <main className='bgg vlg:pt-[50px]'>
     <section ref={dexRef}
      className='grab max-w-[1440px] mx-auto w-full
       flex flex-col items-center justify-between  relative

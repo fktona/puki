@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export default function Footer() {
   return (
-    <main className="bg-[#341A1D]">
-    <footer className=' max-w-[1440px] mx-auto md:px-[100px] px-[25px] flex flex-col-reverse 
+    <main className="bgg">
+    <footer className=' max-w-[1440px]  mx-auto md:px-[100px] px-[25px] flex flex-col-reverse 
     lg:flex-row justify-between gap-[80px]   py-[50px]  items-center lg:items-end'>
     
             <p className='lg:text-[35px] md:text-[28px] text-[24px]'>

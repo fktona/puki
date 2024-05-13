@@ -21,7 +21,6 @@
 body {
   color: white;
   position: relative;
-  background: url('/hero.jpg');
 min-height: 100vh;
 width: 100%;
 top: 0;
@@ -230,4 +229,9 @@ overflow: hidden;
 
 .item1{
   background: url('/item1.svg')  50% / cover no-repeat;
+}
+
+.bgg{
+  background: url('/hero.jpg');
+  mix-blend-mode: multiply;
 }

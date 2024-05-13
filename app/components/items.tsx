@@ -2,7 +2,8 @@ import Image from 'next/image'
 export default function Items() {
     
   return (
-    <div className='relative  max-w-[1440px] mx-auto lg:py-[200px] md:py-[70px] py-[50px] '>
+    <section className='bgg'>
+    <div className='relative   max-w-[1440px] mx-auto lg:py-[200px] md:py-[70px] py-[50px] '>
         <h1 className='w-full relative  lg:text-[72px] text-[51px] mb-10 text-center'>
         PUKI SHIT
         </h1>
@@ -26,5 +27,6 @@ export default function Items() {
             }
         </div>
     </div>
+    </section>
   )
 }

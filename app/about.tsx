@@ -5,7 +5,8 @@ import { useScroll } from './context/scroll'
 export default function About() {
   const {aboutRef} = useScroll() as any;
   return (
-    <section className=' bg-[#341A1D]/80 relative '>
+    <section className=' bgg relative '>
+      <div className='relative  bg-[#341A1D]/80'>
     <div ref={aboutRef} 
     className=' relative  max-w-[1440px] mx-auto  flex justify-between flex-col lg:flex-row 
     items-center px-[25px] py-[50px]  md:gap-10 gap-6  lg:px-[107px]
@@ -25,7 +26,9 @@ export default function About() {
         <Image src='/cteddy.svg' alt='about' width={450} height={520} className='lg:min-w-[450px] lg:h-[520px] w-[100%] aspect-square ' />
         
     </div>
+    </div>
     </section>
+    
   )
 }
 

@@ -6,8 +6,9 @@ import { useScroll } from './context/scroll';
 export default function Process() {
   const {coinRef} = useScroll() as any;
   return (
-    <main className=' bg-[#341A1D]/80 relative '>
-    <section  ref={coinRef}
+    <main className=' bgg  relative '>
+      <section className=' bg-[#341A1D]/80'>
+    <div  ref={coinRef}
     className='lg:px-[120px] max-w-[1440px] mx-auto lg:py-[100px]  px-[25px] py-[50px] '>
         <h1 className='w-full text-center lg:text-[82px] text-[47px]'>How To GET DA $PUKI</h1>
         <div className='md:space-y-[104px] space-y-[60px]'>
@@ -51,6 +52,7 @@ export default function Process() {
 
 
         </div>
+    </div>
     </section>
     </main>
   )
