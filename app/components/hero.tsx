@@ -9,14 +9,14 @@ export default function Hero() {
   const {homeRef} = useScroll() as any;
   return (
     <div ref={homeRef}
-     className='relative   w-[100%] min-h-[100vh] md:min-h-fit overflow-x-hidden z-20 '>
+     className='relative   w-[100%] min-h-[100vh] md:min-h-fit overflow-hidden z-20 '>
       <div className=' absolute right-[-35%] md:right-[-60px] opacity-100
-       md:w-[60%] w-[151%] bottom-0 md:h-[90%] '>
-      <Image src='/teddy.svg' width={940} height={940} alt='puki' className='relative 
+       md:w-[65%] lg:w-[60%]   p-5  w-[151%] bottom-[-15px] ] '>
+      <Image src='/teddy.png' width={940} height={940} alt='puki' className='relative 
       heroflow w-full h-full '/>
       </div>
      <Nav />
-     <div className=' relative z-10 mt-[50px] lg:mb-[180px] 
+     <div className=' relative mt-[50px] z-50  md:pb-[180px] 
       lg:mt-[50px] md:px-[107px] px-[25px]  text-[60px] '>
         <div className=' font-bold text-white'><p className='md:text-[50px] text-[30px] 
         leading-[87%]'>Welcome To </p>
