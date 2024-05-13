@@ -6,8 +6,9 @@ import { useScroll } from './context/scroll';
 export default function Process() {
   const {coinRef} = useScroll() as any;
   return (
+    <main className=' bg-[#341A1D]/80 relative '>
     <section  ref={coinRef}
-    className='lg:px-[120px] lg:py-[100px] px-[25px] py-[50px] bg-[#341A1D]/80'>
+    className='lg:px-[120px] max-w-[1440px] mx-auto lg:py-[100px]  px-[25px] py-[50px] '>
         <h1 className='w-full text-center lg:text-[82px] text-[47px]'>How To GET DA $PUKI</h1>
         <div className='md:space-y-[104px] space-y-[60px]'>
             <div className='flex flex-col md:flex-row justify-center
@@ -34,7 +35,7 @@ export default function Process() {
         </div>
 
 
-        <div className='flex flex-col md:flex-row justify-center
+        <div className='flex flex-col  md:flex-row justify-center
              text-start items-center lg:mt-[106px] mt-[50px] lg:gap-[150px] md:gap-[50px] gap-[40px]'>
         <div className='lg:space-y-8 space-y-5 md:max-w-[50%]'>  
                 <h3 className='lg:text-[48px] text-[30px]'> Connect YA & Swap PA</h3>
@@ -51,5 +52,6 @@ export default function Process() {
 
         </div>
     </section>
+    </main>
   )
 }

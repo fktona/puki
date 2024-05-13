@@ -9,7 +9,7 @@ export default function Hero() {
   const {homeRef} = useScroll() as any;
   return (
     <div ref={homeRef}
-     className='relative   w-[100%] min-h-[100vh] md:min-h-fit overflow-hidden z-20 '>
+     className='relative max-w-[1440px] mx-auto   w-[100%] min-h-[100vh] md:min-h-fit overflow-hidden z-20 '>
       <div className=' absolute right-[-35%] md:right-[-60px] opacity-100
        md:w-[65%] lg:w-[60%]   p-5  w-[151%] bottom-[-15px] ] '>
       <Image src='/teddy.png' width={940} height={940} alt='puki' className='relative 
