@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import { useState } from 'react'
 import Nav from './nav'
 import Image from 'next/image'
 import { useScroll } from '../context/scroll'
@@ -7,6 +7,22 @@ import { useScroll } from '../context/scroll'
 
 export default function Hero() {
   const {homeRef} = useScroll() as any;
+  const [copySuccess, setCopySuccess] = useState('');
+
+const copyToClipboard = async () => {
+  try {
+    await navigator.clipboard.writeText('GwjR1knoW4KMcBGPKrURwvntqUyRenoaF4YyzwR8VYoy');
+    setCopySuccess('Copied!');
+  } catch (err) {
+    setCopySuccess('Failed to copy!');
+  }  finally {
+    setTimeout(() => {
+      setCopySuccess('');
+    }, 1000);
+  }
+};
+
+
   return (
     <section className='bgg1'>
     <div ref={homeRef}
@@ -26,6 +42,15 @@ export default function Hero() {
         <a href="https://dexscreener.com/solana/GwjR1knoW4KMcBGPKrURwvntqUyRenoaF4YyzwR8VYoy" target='_blank'><button className='herobtn lg:px-[50px] bg-[#4E3133] px-[24px] mt-[80px]  text-[35px] md:text-[64px] md:py-[6.7px]'>
         Grab  $PUKI
         </button></a>
+
+        <div className='absolute space-y-6 lg:bottom-5 w-fit mt-6'>
+         <p className='md:text-[30px] text-[25px] '>Contract Address:</p>
+         <div onClick={copyToClipboard} className='md:text-[24px] px-3 py-1 rounded-md flex gap-2 bg-white/10 text-[18px]'><span>
+          GwjR1knoW4KMcBGPKrURwvntq<br/>UyRenoaF4YyzwR8VYoy</span>
+          <Image alt='copy' src={'/copy.svg'} width={40} height={40} className=' cursor-pointer '/>
+             </div>
+             {copySuccess && <div className='absolute top-[-20px] right-0 mx-auto z-50 md:text-[24px] px-3 py-1 rounded-md flex gap-2 bg-white/20 text-[18px] '>{copySuccess}</div>}  
+        </div>
 
        
      </div>
