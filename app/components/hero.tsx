@@ -23,9 +23,9 @@ export default function Hero() {
         leading-[87%]'>Welcome To </p>
         <p className='lg:text-[190px] md:text-[140px] text-[110px] leading-[87%] text-[#FFB500]'>pukionsol</p></div>
         <p className='text-white text-lg lg:mt-[50px] mt-8 text-[32px] md:text-[50px]  '>The baddest bear on the block (chain)</p>
-        <button className='herobtn lg:px-[50px] bg-[#4E3133] px-[24px] mt-[80px]  text-[35px] md:text-[64px] md:py-[6.7px]'>
+        <a href="https://dexscreener.com/solana/GwjR1knoW4KMcBGPKrURwvntqUyRenoaF4YyzwR8VYoy" target='_blank'><button className='herobtn lg:px-[50px] bg-[#4E3133] px-[24px] mt-[80px]  text-[35px] md:text-[64px] md:py-[6.7px]'>
         Grab  $PUKI
-        </button>
+        </button></a>
 
        
      </div>

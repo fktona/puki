@@ -55,15 +55,15 @@ export default function MobileNav({}: {}) {
               aniLeft ? "left-[]" : "left-0"
             }`}
           >
-            <span className="menuli">Buy $PUKI</span>
-          </li>
+           <a href="https://dexscreener.com/solana/GwjR1knoW4KMcBGPKrURwvntqUyRenoaF4YyzwR8VYoy" target="_blank"><span className="menuli">Buy $PUKI</span>
+           </a></li>
           <li
             className={`text-white text-3xl font-bold overflow-hidden cursor-pointer ${
               aniLeft ? "left-[]" : "left-0"
             }`}
           >
-            <span className="menuli">Dexscreener</span>
-          </li>
+            <a href="https://dexscreener.com/solana/GwjR1knoW4KMcBGPKrURwvntqUyRenoaF4YyzwR8VYoy" target="_blank"><span className="menuli">Dexscreener</span>
+          </a></li>
         </ul>
     
     </nav>
