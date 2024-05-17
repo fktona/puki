@@ -43,7 +43,7 @@ const copyToClipboard = async () => {
         Grab  $PUKI
         </button></a>
 
-        <div className='absolute space-y-6 lg:bottom-5 w-fit mt-6'>
+        <div className='absolute  space-y-2 lg:bottom-3 w-fit '>
          <p className='md:text-[30px] text-[25px] '>Contract Address:</p>
          <div onClick={copyToClipboard} className='md:text-[24px] px-3 py-1 rounded-md flex gap-2 bg-white/10 text-[18px]'><span>
           GwjR1knoW4KMcBGPKrURwvntq<br/>UyRenoaF4YyzwR8VYoy</span>
